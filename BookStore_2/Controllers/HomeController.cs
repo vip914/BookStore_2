@@ -35,18 +35,6 @@ namespace BookStore_2.Controllers
             return string.Format("Спасибо, {0}, за покупку!", Purchase.Person.ToString());
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+    
     }
 }
