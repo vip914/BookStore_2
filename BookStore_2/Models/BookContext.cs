@@ -13,6 +13,8 @@ namespace BookStore_2.Models
 
         public DbSet<Purchase> Purchases { get; set; }
 
+        public DbSet<Clients> Clients { get; set; }
+
     }
 
    

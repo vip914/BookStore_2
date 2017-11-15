@@ -14,7 +14,9 @@ namespace BookStore_2.Controllers
         public ActionResult Index()
         {
             var books = db.Books;
+            var clients = db.Clients;
             ViewBag.Books = books;
+            ViewBag.Clients = clients;
             return View();
         }
 
